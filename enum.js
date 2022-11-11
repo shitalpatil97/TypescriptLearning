@@ -1,0 +1,36 @@
+var directions;
+(function (directions) {
+    directions[directions["north"] = 1] = "north";
+    directions[directions["south"] = 2] = "south";
+    directions[directions["east"] = 3] = "east";
+    directions[directions["West"] = 4] = "West";
+})(directions || (directions = {}));
+var weekdays;
+(function (weekdays) {
+    weekdays[weekdays["sunday"] = 0] = "sunday";
+    weekdays[weekdays["Monday"] = 1] = "Monday";
+    weekdays[weekdays["Tuesday"] = 2] = "Tuesday";
+    weekdays[weekdays["wednesday"] = 3] = "wednesday";
+    weekdays[weekdays["Thursday"] = 4] = "Thursday";
+    weekdays[weekdays["Friday"] = 5] = "Friday";
+    weekdays[weekdays["Saturday"] = 6] = "Saturday";
+})(weekdays || (weekdays = {}));
+console.log("************Days in week**************");
+console.log(weekdays[0]);
+console.log(weekdays[1]);
+console.log(weekdays[2]);
+console.log(weekdays[3]);
+console.log(weekdays[4]);
+console.log(weekdays[5]);
+console.log(weekdays[6]);
+console.log("by setting value of 1st property by 1 it automatically increments by 1 for remaining property");
+console.log(directions.north);
+console.log(directions.south);
+console.log(directions.east);
+console.log(directions.West);
+console.log(directions[1]);
+console.log(directions[2]);
+console.log(directions[3]);
+console.log(directions[4]);
+var arr=[];
+console.log(arr.pop());
