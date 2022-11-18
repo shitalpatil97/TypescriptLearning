@@ -27,7 +27,7 @@ class Trainer extends Person{
 
 }
 var person= new Person();
-// person.work();
+person.work();
 person=new Student1();
 person.work();
 

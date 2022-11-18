@@ -52,10 +52,10 @@ var Trainer = /** @class */ (function (_super) {
     return Trainer;
 }(Person));
 var person = new Person();
-person.work();
+//person.work();
 person = new Student1();
-person.work();
+//person.work();
 person = new Employee();
-person.work();
+//person.work();
 person = new Trainer();
 person.work();
