@@ -1,5 +1,5 @@
-function addition(arg1, arg2) {
-    console.log("Addition of ".concat(arg1, " and ").concat(arg2, " is :").concat(arg1 + arg2));
+function addition(arg3, arg2) {
+    console.log("Addition of ".concat(arg3, " and ").concat(arg2, " is :").concat(arg3 + arg2));
 }
 function sub(arg1, arg2) {
     console.log("Subtraction of ".concat(arg1, " and ").concat(arg2, " is :").concat(arg1 - arg2));

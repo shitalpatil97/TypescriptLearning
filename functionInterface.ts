@@ -1,8 +1,8 @@
 interface IArithmetic{
     (arg1:number,arg2:number):void;
 }
-function addition(arg1:number,arg2:number):void{
-    console.log(`Addition of ${arg1} and ${arg2} is :${arg1+arg2}`);
+function addition(arg3:number,arg2:number):void{
+    console.log(`Addition of ${arg3} and ${arg2} is :${arg3+arg2}`);
     
 }
 function sub(arg1:number,arg2:number):void{
